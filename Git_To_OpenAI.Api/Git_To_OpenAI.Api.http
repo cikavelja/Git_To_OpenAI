@@ -1,0 +1,6 @@
+@Git_To_OpenAI.Api_HostAddress = http://localhost:5190
+
+GET {{Git_To_OpenAI.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
