@@ -85,7 +85,7 @@ app.MapGet("/github/project/{repoName}/owner/{owner}/files", async (HttpClient c
 
         // Send file content to OpenAI for improvement suggestions using chat model
         var openAiClient = httpClientFactory.CreateClient();
-        openAiClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "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");
+        openAiClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
 
         var chatRequest = new
         {
